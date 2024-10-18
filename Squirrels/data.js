@@ -1,7 +1,38 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-unsure",
+      "id": "0-red-squirrels-of-brownsea-island",
+      "name": "Red Squirrels of Brownsea Island",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1440,
+      "initialViewParameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.270905985648006
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-unsure",
       "name": "Unsure",
       "levels": [
         {
@@ -32,7 +63,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-choices",
+      "id": "2-choices",
       "name": "Choices",
       "levels": [
         {
@@ -63,7 +94,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-walnut",
+      "id": "3-walnut",
       "name": "Walnut",
       "levels": [
         {
@@ -94,7 +125,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-hazelnut",
+      "id": "4-hazelnut",
       "name": "Hazelnut",
       "levels": [
         {
@@ -125,7 +156,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-brave",
+      "id": "5-brave",
       "name": "Brave",
       "levels": [
         {
@@ -156,7 +187,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "5-almond",
+      "id": "6-almond",
       "name": "Almond",
       "levels": [
         {
@@ -187,7 +218,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "6-cashew",
+      "id": "7-cashew",
       "name": "Cashew",
       "levels": [
         {
@@ -221,7 +252,7 @@ var APP_DATA = {
   "name": "Brownsea Island Red Squirrels",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
