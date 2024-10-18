@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-red-squirrels-of-brownsea-island",
-      "name": "Red Squirrels of Brownsea Island",
+      "id": "0-index",
+      "name": "index",
       "levels": [
         {
           "tileSize": 256,
@@ -26,7 +26,7 @@ var APP_DATA = {
       "initialViewParameters": {
         "yaw": 0,
         "pitch": 0,
-        "fov": 1.270905985648006
+        "fov": 1.4108347438219848
       },
       "linkHotspots": [],
       "infoHotspots": []
