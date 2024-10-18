@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-index",
-      "name": "index",
+      "id": "0-red-squirrels--index",
+      "name": "Red Squirrels – Index",
       "levels": [
         {
           "tileSize": 256,
